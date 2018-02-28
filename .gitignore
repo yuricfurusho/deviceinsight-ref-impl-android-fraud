@@ -1,0 +1,21 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/workspace.xml
+build/generated/res/
+build/generated/source/aidl/
+build/generated/source/r/androidTest/
+build/generated/source/rs/
+build/intermediates/blame/res/androidTest/
+build/intermediates/incremental/mergeDebugAndroidTestResources/aapt-temp/
+build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/
+build/intermediates/incremental/mergeDebugResources/aapt-temp/
+build/intermediates/incremental/packageDebug/
+build/intermediates/incremental/packageDebugAndroidTest/
+build/intermediates/incremental/packageRelease/
+build/intermediates/incremental/processDebugAndroidTestResources/
+build/intermediates/incremental/processDebugResources/
+build/intermediates/manifest/tmp/
+build/intermediates/manifests/instant-run/
+build/intermediates/res/merged/androidTest/
+build/intermediates/rs/
+build/intermediates/symbols/androidTest/

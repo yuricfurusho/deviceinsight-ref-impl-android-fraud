@@ -2,10 +2,11 @@ buildscript {
    repositories {
       mavenCentral()
       jcenter()
+      google()
    }
 
    dependencies {
-      classpath 'com.android.tools.build:gradle:2.3.2'
+      classpath 'com.android.tools.build:gradle:3.0.1'
    }
 }
 
@@ -13,19 +14,19 @@ apply from: 'version.gradle'
 apply plugin: 'com.android.application'
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:25.1.0'
-    compile 'com.android.support:design:25.1.0'
+    compile 'com.android.support:appcompat-v7:27.0.2'
+    compile 'com.android.support:design:27.0.2'
     compile project(':di-collector-android-fraud')
 }
 
 android {
-   compileSdkVersion 25
-   buildToolsVersion "25.0.1"
+   compileSdkVersion 27
+   buildToolsVersion '26.0.2'
 
    defaultConfig {
       applicationId "com.deviceinsight.fraud.DeviceInsightApplication"
-      minSdkVersion 9
-      targetSdkVersion 25
+      minSdkVersion 14
+      targetSdkVersion 27
       versionCode 1
       versionName rootProject.ext.versionName
    }
@@ -58,4 +59,7 @@ android {
          }
       }
    }
+}
+repositories {
+   google()
 }
