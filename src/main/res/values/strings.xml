@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Collector</string>
+    <string name="payload_label">Payload:</string>
+    <string name="error_label">Error:</string>
+    <string name="collect_and_submit">Collect and Submit</string>
+    <string name="url_label">Submission URL (optional):</string>
+    <string name="permission_phone_rationale">Permission to "Phone" is required for the application to work correctly</string>
+    <string name="permission_not_granted">Results will not be accurate !!!\nAllow access to "Phone" in App Settings</string>
+</resources>

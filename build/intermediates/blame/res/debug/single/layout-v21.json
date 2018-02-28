@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/live/.android/build-cache/a8c5d9221da4b23baf6af6606e538f0a7eda5634/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/live/.android/build-cache/a8c5d9221da4b23baf6af6606e538f0a7eda5634/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/live/.android/build-cache/a8c5d9221da4b23baf6af6606e538f0a7eda5634/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/live/.android/build-cache/a8c5d9221da4b23baf6af6606e538f0a7eda5634/output/res/layout-v21/notification_action.xml"
+    }
+]

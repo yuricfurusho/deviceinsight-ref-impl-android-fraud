@@ -1,0 +1,2 @@
+rootProject.name = 'deviceinsight-ref-impl-android-fraud'
+include ':di-collector-android-fraud'

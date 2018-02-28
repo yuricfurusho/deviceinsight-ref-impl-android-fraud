@@ -1,0 +1,86 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:3:3-36
+		INJECTED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml
+		INJECTED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml
+		INJECTED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml
+		INJECTED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:6:3-65
+	android:name
+		ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:6:20-62
+application
+ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:8:3-19:17
+MERGED from [com.android.support:design:25.1.0] /home/live/.android/build-cache/f6e93d533110459244ea0e3135ed878de19d3dbb/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] /home/live/.android/build-cache/a8c5d9221da4b23baf6af6606e538f0a7eda5634/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /home/live/.android/build-cache/efe1d2b74a298c9526e67ec3a1bd6539df8f2e8c/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /home/live/.android/build-cache/caac4625f5e51a0305729a1a5a7429bf85f6c32a/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.0] /home/live/.android/build-cache/74ab48013354d05d645a0ae887343451bc785c91/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /home/live/.android/build-cache/aa19a69893d45ae107ec1e520b3b68bd59f0ae51/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /home/live/.android/build-cache/c4ff6797ba24002de3fe09991d081528a6cf0839/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /home/live/.android/build-cache/306f33bcc1afbac13b9fdf0e87559c9799433edd/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /home/live/.android/build-cache/1510b1e84a5931651bee0899b7c14e7e6d8a1ec3/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/live/.android/build-cache/96f2c05d60753e81b6d2fdba3b9a880ea54514e7/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /home/live/.android/build-cache/f9e68f1bb8ec9c4b0bfdc9faba5d0b18d927501e/output/AndroidManifest.xml:25:5-20
+MERGED from [deviceinsight-ref-impl-android-fraud:di-collector-android-fraud:unspecified] /home/live/.android/build-cache/a42e5c025bd382175ca25e064d101e86a47fa43c/output/AndroidManifest.xml:12:5-13:19
+	android:label
+		ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:11:7-39
+	android:allowBackup
+		ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:12:7-34
+	android:icon
+		ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:10:7-36
+	android:theme
+		ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:9:7-51
+activity#com.deviceinsight.fraud.ExampleActivity
+ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:13:5-18:16
+	android:name
+		ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:13:15-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:14:7-17:23
+action#android.intent.action.MAIN
+ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:15:9-61
+	android:name
+		ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:15:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:16:9-69
+	android:name
+		ADDED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml:16:19-66
+uses-sdk
+INJECTED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.1.0] /home/live/.android/build-cache/f6e93d533110459244ea0e3135ed878de19d3dbb/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.0] /home/live/.android/build-cache/a8c5d9221da4b23baf6af6606e538f0a7eda5634/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /home/live/.android/build-cache/efe1d2b74a298c9526e67ec3a1bd6539df8f2e8c/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /home/live/.android/build-cache/caac4625f5e51a0305729a1a5a7429bf85f6c32a/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.0] /home/live/.android/build-cache/bc357f8b9bdf4528507e775331ed485a7e8cb848/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.0] /home/live/.android/build-cache/74ab48013354d05d645a0ae887343451bc785c91/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.1.0] /home/live/.android/build-cache/aa19a69893d45ae107ec1e520b3b68bd59f0ae51/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] /home/live/.android/build-cache/c4ff6797ba24002de3fe09991d081528a6cf0839/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] /home/live/.android/build-cache/306f33bcc1afbac13b9fdf0e87559c9799433edd/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] /home/live/.android/build-cache/1510b1e84a5931651bee0899b7c14e7e6d8a1ec3/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/live/.android/build-cache/96f2c05d60753e81b6d2fdba3b9a880ea54514e7/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /home/live/.android/build-cache/f9e68f1bb8ec9c4b0bfdc9faba5d0b18d927501e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [deviceinsight-ref-impl-android-fraud:di-collector-android-fraud:unspecified] /home/live/.android/build-cache/a42e5c025bd382175ca25e064d101e86a47fa43c/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.0] /home/live/.android/build-cache/f6e93d533110459244ea0e3135ed878de19d3dbb/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml
+		INJECTED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml
+		INJECTED from /home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [deviceinsight-ref-impl-android-fraud:di-collector-android-fraud:unspecified] /home/live/.android/build-cache/a42e5c025bd382175ca25e064d101e86a47fa43c/output/AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from [deviceinsight-ref-impl-android-fraud:di-collector-android-fraud:unspecified] /home/live/.android/build-cache/a42e5c025bd382175ca25e064d101e86a47fa43c/output/AndroidManifest.xml:9:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [deviceinsight-ref-impl-android-fraud:di-collector-android-fraud:unspecified] /home/live/.android/build-cache/a42e5c025bd382175ca25e064d101e86a47fa43c/output/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from [deviceinsight-ref-impl-android-fraud:di-collector-android-fraud:unspecified] /home/live/.android/build-cache/a42e5c025bd382175ca25e064d101e86a47fa43c/output/AndroidManifest.xml:10:22-73

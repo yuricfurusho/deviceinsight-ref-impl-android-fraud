@@ -1,0 +1,61 @@
+buildscript {
+   repositories {
+      mavenCentral()
+      jcenter()
+   }
+
+   dependencies {
+      classpath 'com.android.tools.build:gradle:2.3.2'
+   }
+}
+
+apply from: 'version.gradle'
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:design:25.1.0'
+    compile project(':di-collector-android-fraud')
+}
+
+android {
+   compileSdkVersion 25
+   buildToolsVersion "25.0.1"
+
+   defaultConfig {
+      applicationId "com.deviceinsight.fraud.DeviceInsightApplication"
+      minSdkVersion 9
+      targetSdkVersion 25
+      versionCode 1
+      versionName rootProject.ext.versionName
+   }
+
+   lintOptions {
+      disable 'GoogleAppIndexingWarning'
+   }
+
+   buildTypes {
+      release {
+         minifyEnabled true
+         proguardFiles getDefaultProguardFile('proguard-android.txt')
+      }
+      debug {
+         minifyEnabled false
+         proguardFiles getDefaultProguardFile('proguard-android.txt')
+      }
+   }
+
+   sourceSets {
+      main {
+         manifest {
+            srcFile 'src/main/AndroidManifest.xml'
+         }
+         java {
+            srcDir 'src/main/java'
+         }
+         res {
+            srcDir 'src/main/res'
+         }
+      }
+   }
+}

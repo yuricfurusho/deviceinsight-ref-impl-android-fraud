@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/live/.android/build-cache/a8c5d9221da4b23baf6af6606e538f0a7eda5634/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/live/Downloads/deviceinsight-collector-android-fraud-6.8.0-0-dist/Reference Implementation/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/live/.android/build-cache/a8c5d9221da4b23baf6af6606e538f0a7eda5634/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

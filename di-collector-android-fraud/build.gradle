@@ -1,0 +1,5 @@
+configurations.maybeCreate("default")
+artifacts.add("default",
+   fileTree('.') {
+      include 'di-collector-android-fraud-*.aar'
+   }.singleFile)

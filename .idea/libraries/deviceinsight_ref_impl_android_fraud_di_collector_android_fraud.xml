@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="deviceinsight-ref-impl-android-fraud:di-collector-android-fraud">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/a42e5c025bd382175ca25e064d101e86a47fa43c/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/a42e5c025bd382175ca25e064d101e86a47fa43c/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

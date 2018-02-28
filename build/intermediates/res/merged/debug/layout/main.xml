@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center_horizontal"
+              android:id="@+id/main_layout">
+
+    <TextView
+        android:id="@+id/urlLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/url_label"/>
+   <EditText  android:id="@+id/remoteUriTextField"
+              android:text=""
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:inputType="textUri"
+       />
+
+    <Button
+        android:id="@+id/collectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="collectPayload"
+        android:text="@string/collect_and_submit"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/payloadLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/payload_label"
+        android:visibility="invisible"/>
+   <EditText  android:id="@+id/payloadTextView"
+              android:text=""
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:visibility="invisible"
+              android:inputType="text"
+       />
+
+    <WebView
+        android:id="@+id/mainWebView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"/>
+</LinearLayout>
